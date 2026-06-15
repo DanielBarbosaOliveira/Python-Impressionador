@@ -1,0 +1,1 @@
+﻿senha_app = "jbvi vuje tovr vjok"
