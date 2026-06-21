@@ -1,0 +1,1 @@
+﻿senha_mysql = 'Tak@1shista'

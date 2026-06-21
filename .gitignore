@@ -11,3 +11,5 @@ venv/
 *.docx
 *.pdf
 *.png
+*.db
+*.sqlite

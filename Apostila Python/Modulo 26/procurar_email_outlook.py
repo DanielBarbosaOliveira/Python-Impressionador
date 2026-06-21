@@ -5,8 +5,8 @@ outlook = win32.Dispatch('outlook.application')
 
 caixas_email = outlook.GetNamespace('MAPI')
 
-""" for pasta in caixas_email.Folders: # Mostra as pastas (contas) que tem dentro do outlook
-    print(pasta) """
+for pasta in caixas_email.Folders: # Mostra as pastas (contas) que tem dentro do outlook
+    print(pasta)
     
 pasta_dandam = caixas_email.Folders.Item(1) # Escolhe a conta desejada, começando pelo numero 1
 
@@ -18,7 +18,7 @@ caixa_entrada = pasta_dandam.Folders.Item(2)
 lista_emails = caixa_entrada.Items
 print(len(lista_emails))
 
-for email in lista_emails:
+""" for email in lista_emails:
     anexos = email.Attachments
     if email.To == 'santos7mana@hotmail.com' and len(anexos) > 0:
         print('-' * 20)
@@ -32,4 +32,4 @@ for email in lista_emails:
             anexo.SaveAsFile(caminho_anexo_salvar)
         print('-' * 20)
 print('Fim do código')
-    
+     """
