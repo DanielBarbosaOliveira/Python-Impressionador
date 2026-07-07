@@ -13,3 +13,4 @@ venv/
 *.png
 *.db
 *.sqlite
+*.DS_Store
