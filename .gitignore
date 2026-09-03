@@ -27,6 +27,7 @@ __pycache__/
 *.db
 *.sqlite
 *.DS_Store
+*.joblib
 
 # Arquivos com credenciais
 senha.py
@@ -35,3 +36,4 @@ token.json
 senha_email.py
 chaves_binance.py
 chave.py
+
