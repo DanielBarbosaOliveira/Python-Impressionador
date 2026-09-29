@@ -1,8 +1,21 @@
-.ipynb_checkpoints/
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller
+build/
+dist/
+
+# Arquivos Python
 __pycache__/
 *.pyc
-venv/
-.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos
 .idea/
 .vscode/
 *.csv
@@ -13,3 +26,14 @@ venv/
 *.png
 *.db
 *.sqlite
+*.DS_Store
+*.joblib
+
+# Arquivos com credenciais
+senha.py
+credentials.json
+token.json
+senha_email.py
+chaves_binance.py
+chave.py
+
